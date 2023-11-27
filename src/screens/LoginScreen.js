@@ -10,7 +10,7 @@ const LoginScreen = () => {
       <SafeAreaView>
         <Text>Log in</Text>
         <TextInput mode="outlined" label={"Username"} />
-        <TextInput mode="outlined" label={"Password"} />
+        <TextInput mode="outlined" label={"Password"} secureTextEntry={true} />
 
         <Button>Log in</Button>
         <SafeAreaView>
