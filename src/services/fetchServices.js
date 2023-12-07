@@ -9,6 +9,12 @@ const fetchServices = {
       credentials: "same-origin", // include, *same-origin, omit
       headers: {
         "Content-Type": "application/json",
+        // accept: "application/json",
+        // "Access-Control-Allow-Origin": "*",
+        // "Access-Control-Allow-Credentials": "false",
+        // "Access-Control-Allow-Methods": "GET",
+        // "Access-Control-Allow-Headers":
+        //   "Origin, Options, x-Requested-with, Content-type, Accept",
         // 'Content-Type': 'application/x-www-form-urlencoded',
       },
       redirect: "follow", // manual, *follow, error
