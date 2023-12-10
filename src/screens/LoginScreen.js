@@ -40,7 +40,7 @@ const LoginScreen = () => {
       }
       // API
 
-      const url = "http://192.168.254.110:8000/api/login";
+      const url = "http://192.168.254.123:8000/api/login";
       const data = {
         email,
         password,

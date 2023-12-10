@@ -11,6 +11,7 @@ import LandingScreen from "./src/screens/LandingScreen";
 import LoginScreen from "./src/screens/LoginScreen";
 import HomeScreen from "./src/screens/HomeScreen";
 
+
 const Stack = createNativeStackNavigator();
 
 function App() {
